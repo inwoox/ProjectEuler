@@ -10,7 +10,7 @@ public class solution20 {
         BigInteger num = new BigInteger("100");
         result = jarisu(num);
         strArr = result.toString().split("");
-        for (String s : strArr){
+        for(String s : strArr){
             sum += Integer.parseInt(s);
         }
 
